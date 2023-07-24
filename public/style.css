@@ -1,0 +1,9 @@
+body {
+    font-family: "Ubuntu Condensed", sans-serif;
+    /* background-image: url("color-background.jpg");
+    background-size: cover; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
