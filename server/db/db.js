@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 const pkg = require("../../package.json");
-const { createClient } = require("@supabase/supabase-js")
+// const { createClient } = require("@supabase/supabase-js")
 
 const databaseName =
   pkg.name + (process.env.NODE_ENV === "test" ? "-test" : "");
