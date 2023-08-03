@@ -1,8 +1,8 @@
-const path = require('path')
+// const path = require('path')
 const express = require('express')
 const morgan = require('morgan')
 const { graphqlHTTP } = require('express-graphql')
-const { buildSchema } = require('graphql')
+// const { buildSchema } = require('graphql')
 const app = express()
 
 module.exports = app
