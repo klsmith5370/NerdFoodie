@@ -2,15 +2,10 @@
 const express = require('express')
 const morgan = require('morgan')
 const { graphqlHTTP } = require('express-graphql')
-// const { buildSchema } = require('graphql')
 const app = express()
 
-module.exports = app
-
-// resolvers
-const root = {
-  
-}
+const schema = require('./graphql/schema')
+const root = require('./graphql/resolvers')
 
 // logging middleware
 app.use(morgan('dev'))
@@ -60,3 +55,5 @@ app.use((err, req, res, next) => {
   console.error(err.stack)
   res.status(err.status || 500).send(err.message || 'Internal server error.')
 })
+
+module.exports = app;

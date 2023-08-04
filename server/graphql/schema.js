@@ -31,6 +31,6 @@ const schema = buildSchema(`
     createUser(firstName: String!, lastName: String!, username: String!, password: String!, email: String!, bio: String, image: String): User
     // Add more mutation functions as needed
   }
-`);
+`)
 
-module.exports = schema;
+module.exports = schema
