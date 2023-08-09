@@ -9,6 +9,7 @@ const root = {
       throw new Error('Error fetching users:', error);
     }
   },
+
   user: async ({ id }) => {
     try {
       const user = await User.findByPk(id);
@@ -17,6 +18,7 @@ const root = {
       throw new Error('Error fetching user:', error);
     }
   },
+
   characterRecipes: async () => {
     try {
       const recipes = await CharacterRecipe.findAll();
@@ -25,6 +27,7 @@ const root = {
       throw new Error('Error fetching character recipes:', error);
     }
   },
+
   characterRecipe: async ({ id }) => {
     try {
       const recipe = await CharacterRecipe.findByPk(id);
@@ -33,6 +36,7 @@ const root = {
       throw new Error('Error fetching character recipe:', error);
     }
   },
+
   createUser: async ({ firstName, lastName, username, password, email, bio, image }) => {
     try {
       const user = await User.create({ firstName, lastName, username, password, email, bio, image });
@@ -41,6 +45,7 @@ const root = {
       throw new Error('Error creating user:', error);
     }
   },
+
   // Add more resolver functions for mutations as needed
 };
 
