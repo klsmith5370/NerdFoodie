@@ -1,6 +1,6 @@
 'use strict'
 
-const { db, models: { } } = require('../server/db/index')
+const { db, models: { CharacterRecipe } } = require('../server/db/index')
 
 async function seed() {
     await db.sync({ force: true }) // clears db and matches models to tables
@@ -9,6 +9,9 @@ async function seed() {
     // creates users
 
     // creates food recipes
+    const characterRecipes = await Promise.all([
+        
+    ])
 
     console.log(`seeded ${users.length} users`)
     console.log(`seeded ${characterRecipes.length} recipes`)
