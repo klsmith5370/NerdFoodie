@@ -10,7 +10,59 @@ async function seed() {
 
     // creates food recipes
     const characterRecipes = await Promise.all([
-        
+        CharacterRecipe.create({
+            characterName: ,
+            recipeName: ,
+            recipeIngredients: ,
+            recipeInstructions: ,
+            recipeDescription: ,
+            characterImage: ,
+        }),
+
+        CharacterRecipe.create({
+            characterName: ,
+            recipeName: ,
+            recipeIngredients: ,
+            recipeInstructions: ,
+            recipeDescription: ,
+            characterImage: ,
+        }),
+
+        CharacterRecipe.create({
+            characterName: ,
+            recipeName: ,
+            recipeIngredients: ,
+            recipeInstructions: ,
+            recipeDescription: ,
+            characterImage: ,
+        }),
+
+        CharacterRecipe.create({
+            characterName: ,
+            recipeName: ,
+            recipeIngredients: ,
+            recipeInstructions: ,
+            recipeDescription: ,
+            characterImage: ,
+        }),
+
+        CharacterRecipe.create({
+            characterName: ,
+            recipeName: ,
+            recipeIngredients: ,
+            recipeInstructions: ,
+            recipeDescription: ,
+            characterImage: ,
+        }),
+
+        CharacterRecipe.create({
+            characterName: ,
+            recipeName: ,
+            recipeIngredients: ,
+            recipeInstructions: ,
+            recipeDescription: ,
+            characterImage: ,
+        }),
     ])
 
     console.log(`seeded ${users.length} users`)
