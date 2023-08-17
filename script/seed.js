@@ -42,11 +42,11 @@ async function seed() {
         }),
 
         CharacterRecipe.create({
-            characterName: '',
-            recipeName: '',
-            recipeIngredients: '',
-            recipeInstructions: '',
-            recipeDescription: '',
+            characterName: 'Luna',
+            recipeName: 'Crescent Moon Snacks',
+            recipeIngredients: '1 package refrigerated crescent roll dough. ½ cup Nutella or chocolate spread. Powdered sugar (for dusting)',
+            recipeInstructions: 'Preheat your oven to the temperature specified on the crescent roll dough package. Unroll the crescent roll dough and separate the triangles. Spoon a small amount (about 1 teaspoon) of Nutella or chocolate spread onto the wide end of each triangle. Gently roll up the triangles, starting from the wide end and rolling towards the pointed end, creating crescent shapes. Place the crescent shapes on a baking sheet lined with parchment paper. Bake according to the package instructions, until the crescent shapes are golden brown and cooked through. Once baked, let the crescent moon snacks cool slightly on a wire rack. Dust the crescent moon snacks with powdered sugar to add a touch of moonlit magic.',
+            recipeDescription: 'Inspired by the elegance of Luna from Sailor Moon, these Crescent Moon Snacks are a quick and easy treat that captures the magic of the moonlit nights.',
             characterImage: '',
         }),
 
