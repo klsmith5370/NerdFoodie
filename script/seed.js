@@ -51,11 +51,11 @@ async function seed() {
         }),
 
         CharacterRecipe.create({
-            characterName: '',
-            recipeName: '',
-            recipeIngredients: '',
-            recipeInstructions: '',
-            recipeDescription: '',
+            characterName: 'Heartless',
+            recipeName: 'Heartless Dark Chocolate Truffles',
+            recipeIngredients: 'Ingredients: For the Truffles: 8 oz (225g) high-quality dark chocolate, chopped. 1/2 cup heavy cream. 2 tablespoons unsalted butter, room temperature. 1 teaspoon vanilla extract. Pinch of salt. Cocoa powder or powdered sugar (for dusting). For the Heartless Garnish (optional): Black fondant or black candy melts. Edible gold or silver luster dust. Small heart-shaped cookie cutter',
+            recipeInstructions: 'Prepare the Ganache: Place the chopped dark chocolate in a heatproof bowl. In a saucepan, heat the heavy cream over medium heat until it starts to simmer. Remove from heat immediately. Pour the hot cream over the chopped chocolate and let it sit for a minute to soften the chocolate. Gently whisk the mixture until the chocolate is fully melted and the ganache is smooth. Add the unsalted butter, vanilla extract, and a pinch of salt to the ganache. Mix until the butter is completely incorporated. Chill the Ganache: Cover the bowl with plastic wrap, ensuring it touches the surface of the ganache to prevent a skin from forming. Refrigerate the ganache for about 2-3 hours, or until it firms up and is scoopable. Shape the Truffles: Once the ganache has chilled, use a small scoop or spoon to portion out small amounts of ganache. Roll the portions between your palms to create smooth truffle balls. Place them on a parchment-lined tray. Coat the Truffles: Roll the truffle balls in cocoa powder or powdered sugar, covering them completely. This gives them a rustic, Heartless-like appearance. Heartless Garnish (optional): If desired, roll out the black fondant or melt black candy melts according to the package instructions. Use a small heart-shaped cookie cutter to cut out heart shapes from the fondant or candy melts. Dust the heart shapes with edible gold or silver luster dust to create a mysterious shimmer.',
+            recipeDescription: 'Indulge in the darkness with these decadent Heartless Dark Chocolate Truffles, inspired by the enigmatic creatures from Kingdom Hearts. These rich and velvety truffles are a blend of deep, intense flavors, encased in a smooth chocolate shell.',
             characterImage: '',
         }),
 
