@@ -46,6 +46,7 @@ const root = {
     }
   },
 
+
   // Add more resolver functions for mutations as needed
 };
 
