@@ -1,6 +1,6 @@
 Welcome to NerdFoodie!  
 
-This repo is the home for the codebase that powers NerdFoodie, the sister website of NerdBar, also a simple card application that allows you to view different recipe cards based on your favorite characters! 
+This repo is the home for the codebase that powers NerdFoodie, the sister website of NerdBar, also an application that allows you to view different recipes based on your favorite characters! 
 
 Deployed link: STAY TUNED!
 
@@ -14,5 +14,9 @@ Start server npm start and open http://localhost:8080 to view it in your browser
 
 Technologies used: 
 
-React, Redux, Node.js, PostgreSQL, GraphQL, Sequelize, JSON Web Token, Figma
-
+Next.js
+Tailwind CSS
+Node.js
+PostgreSQL
+GraphQL
+Sequelize
