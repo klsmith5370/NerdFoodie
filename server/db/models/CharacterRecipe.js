@@ -30,10 +30,6 @@ const CharacterRecipe = db.define("recipe", {
         type: Sequelize.TEXT,
     },
 
-    recipeCategory: {
-        type: Sequelize.ARRAY(Sequelize.TEXT),
-    },
-
     characterImage: {
         type: Sequelize.STRING,
         defaultValue: "",
